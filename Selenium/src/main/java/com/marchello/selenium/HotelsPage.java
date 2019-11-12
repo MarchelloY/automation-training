@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.concurrent.TimeUnit;
-
 public class HotelsPage {
     private WebDriver webDriver;
 
@@ -16,6 +14,7 @@ public class HotelsPage {
     }
 
     public HotelsPage incorrectSearchForHotels(String destinations) throws InterruptedException {
+        //this.webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(5000);
         WebElement inputTo = this.webDriver.findElement(By.xpath("//input[@name='to']"));
         inputTo.sendKeys(destinations);

@@ -31,13 +31,13 @@ public class TriangleTest {
     //Треугольник с отрицательной стороной (5)
     @Test
     public void negativeSideTriangle() {
-        Assert.assertFalse(Triangle.isTriangleExist(-2, 3, 1));
+        org.testng.Assert.assertThrows(IllegalArgumentException.class, () -> Triangle.isTriangleExist(-2, 3, 1));
     }
 
     //Треугольник с нулевой стороной (6)
     @Test
     public void zeroSideTriangle() {
-        Assert.assertFalse(Triangle.isTriangleExist(0, 3, 1));
+        org.testng.Assert.assertThrows(IllegalArgumentException.class, () -> Triangle.isTriangleExist(0, 3, 1));
     }
 
     //Равнобедренный, существующий треугольник (7)
@@ -55,12 +55,12 @@ public class TriangleTest {
     //Треугольник с нулевыми сторонами (9)
     @Test
     public void allZeroSidesTriangle() {
-        Assert.assertFalse(Triangle.isTriangleExist(0, 0, 0));
+        org.testng.Assert.assertThrows(IllegalArgumentException.class, () -> Triangle.isTriangleExist(0, 0, 0));
     }
 
     //Треугольник с отрицательными сторонами (10)
     @Test
     public void allNegativeSidesTriangle() {
-        Assert.assertFalse(Triangle.isTriangleExist(-1, -2, -3));
+        org.testng.Assert.assertThrows(IllegalArgumentException.class, () -> Triangle.isTriangleExist(-1, -2, -3));
     }
 }

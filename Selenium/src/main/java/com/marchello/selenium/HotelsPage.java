@@ -14,20 +14,15 @@ public class HotelsPage {
     }
 
     public HotelsPage incorrectSearchForHotels(String destinations) throws InterruptedException {
-        //this.webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Thread.sleep(5000);
         WebElement inputTo = this.webDriver.findElement(By.xpath("//input[@name='to']"));
         inputTo.sendKeys(destinations);
-        Thread.sleep(5000);
         inputTo.click();
-        Thread.sleep(5000);
         WebElement submitButton = this.webDriver.findElement(By.xpath("//div[@class='_24VpF']"));
         submitButton.click();
         return this;
     }
 
     public HotelsPage requestOnSity() throws InterruptedException {
-        Thread.sleep(5000);
         WebElement hrefSity = this.webDriver.findElement(By.xpath("//div[@class='_2t0wR OpvOL _2_AOf _10Dsl']"));
         hrefSity.click();
         return this;

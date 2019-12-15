@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cab7041-dfb8-4795-8eeb-41c481afc188" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UzGe0yMylLga7AypaMaB9Dvkwq" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marchello\Desktop\Framework\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FunctionalTests">
+    <configuration name="FunctionalTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hotel-hunter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marchello.hotel.hunter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marchello.hotel.hunter.test" />
+      <option name="MAIN_CLASS_NAME" value="com.marchello.hotel.hunter.test.FunctionalTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalTests.requestOnGooglePlay" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hotel-hunter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marchello.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marchello.test" />
+      <option name="MAIN_CLASS_NAME" value="com.marchello.test.FunctionalTests" />
+      <option name="METHOD_NAME" value="requestOnGooglePlay" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.searchHotelsWithCorrectPlace" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hotel-hunter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marchello.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marchello.test" />
+      <option name="MAIN_CLASS_NAME" value="com.marchello.test.SearchHotelsTest" />
+      <option name="METHOD_NAME" value="searchHotelsWithCorrectPlace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.searchHotelsWithDateMoreYear" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hotel-hunter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marchello.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marchello.test" />
+      <option name="MAIN_CLASS_NAME" value="com.marchello.test.SearchHotelsTest" />
+      <option name="METHOD_NAME" value="searchHotelsWithDateMoreYear" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelsTest.searchHotelsWithNotExistHotel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hotel-hunter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marchello.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marchello.test" />
+      <option name="MAIN_CLASS_NAME" value="com.marchello.test.SearchHotelsTest" />
+      <option name="METHOD_NAME" value="searchHotelsWithNotExistHotel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FunctionalTests" />
+        <item itemvalue="TestNG.SearchHotelsTest.searchHotelsWithNotExistHotel" />
+        <item itemvalue="TestNG.SearchHotelsTest.searchHotelsWithDateMoreYear" />
+        <item itemvalue="TestNG.FunctionalTests.requestOnGooglePlay" />
+        <item itemvalue="TestNG.SearchHotelsTest.searchHotelsWithCorrectPlace" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cab7041-dfb8-4795-8eeb-41c481afc188" name="Default Changelist" comment="" />
+      <created>1576352101179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576352101179</updated>
+      <workItem from="1576352121290" duration="27799000" />
+      <workItem from="1576422015758" duration="3564000" />
+      <workItem from="1576427778088" duration="2951000" />
+      <workItem from="1576435504273" duration="2442000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1576435637110">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1576435637110" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576355276014">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1576355276014" />
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1576438199589">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576438199589" />
+    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1576438199589">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1576438199589" />
+    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1576438199589">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1576438199589" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1576438199589">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1576438199589" />
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog" timestamp="1576436913449">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1576436913449" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1576357952337">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1576357952337" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1576432229104">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1576432229104" />
+    <state x="447" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576435815364">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="447" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.738@0.0.1366.738" timestamp="1576435815364" />
+  </component>
+</project>

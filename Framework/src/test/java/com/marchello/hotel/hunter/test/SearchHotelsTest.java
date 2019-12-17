@@ -2,6 +2,7 @@ package com.marchello.hotel.hunter.test;
 
 import com.marchello.hotel.hunter.page.HomePage;
 import com.marchello.hotel.hunter.service.DataReader;
+import com.marchello.hotel.hunter.service.SearchQueryCreator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,7 +26,7 @@ public class SearchHotelsTest extends CommonConditions {
         String errorText = new HomePage(driver)
                 .openPage()
                 .pickDate()
-                .searchIncorrectPlace()
+                .searchIncorrectPlace(SearchQueryCreator.withIncorrectPlace())
                 .getMessageNotFound();
         Assert.assertEquals(errorText, DataReader.getData("error.message.not.found"));
     }
@@ -34,7 +35,7 @@ public class SearchHotelsTest extends CommonConditions {
         String errorText = new HomePage(driver)
                 .openPage()
                 .pickDate()
-                .searchNotExistHotel()
+                .searchNotExistHotel(SearchQueryCreator.withCorrectPlace())
                 .selectSity()
                 .getMessageNoHotels();
         Assert.assertEquals(errorText, DataReader.getData("error.message.no.hotels"));
@@ -52,7 +53,7 @@ public class SearchHotelsTest extends CommonConditions {
         String text = new HomePage(driver)
                 .openPage()
                 .pickDate()
-                .searchCorrectPlace()
+                .searchCorrectPlace(SearchQueryCreator.withCorrectPlace())
                 .getMessageCorrectFind();
         Assert.assertEquals(text, DataReader.getData("message.correct.find"));
     }

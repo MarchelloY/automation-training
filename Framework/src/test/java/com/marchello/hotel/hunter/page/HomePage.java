@@ -1,5 +1,6 @@
 package com.marchello.hotel.hunter.page;
 
+import com.marchello.hotel.hunter.model.SearchQuery;
 import com.marchello.hotel.hunter.service.DataReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -92,21 +93,21 @@ public class HomePage extends AbstractPage {
         return this.radioMinPrice.getText();
     }
 
-    public SearchPage searchIncorrectPlace() {
-        this.inputPlace.sendKeys(DataReader.getData("search.place.incorrect"));
+    public SearchPage searchIncorrectPlace(SearchQuery searchQuery) {
+        this.inputPlace.sendKeys(searchQuery.getPlace());
         this.buttonSubmit.click();
         logger.info("Incorrect place introduced");
         return new SearchPage(driver);
     }
 
-    public SearchPage searchCorrectPlace() {
-        this.inputPlace.sendKeys(DataReader.getData("search.place.correct"));
+    public SearchPage searchCorrectPlace(SearchQuery searchQuery) {
+        this.inputPlace.sendKeys(searchQuery.getPlace());
         this.buttonSubmit.click();
         logger.info("Incorrect place introduced");
         return new SearchPage(driver);
     }
 
-    public SearchPage searchNotExistHotel() {
+    public SearchPage searchNotExistHotel(SearchQuery searchQuery) {
         this.moreOptions.click();
         logger.info("Click more options");
         this.radioFiveStars = new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
@@ -117,7 +118,7 @@ public class HomePage extends AbstractPage {
                 .until(ExpectedConditions.presenceOfElementLocated(By.xpath(XPATH_OF_RADIO_MIN_PRICE)));
         this.radioMinPrice.click();
         logger.info("Select min price");
-        this.inputPlace.sendKeys(DataReader.getData("search.place.correct"));
+        this.inputPlace.sendKeys(searchQuery.getPlace());
         this.buttonSubmit.click();
         logger.info("Search...");
         return new SearchPage(driver);

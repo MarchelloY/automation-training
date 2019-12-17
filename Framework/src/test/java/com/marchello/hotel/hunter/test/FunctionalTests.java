@@ -20,7 +20,6 @@ public class FunctionalTests extends CommonConditions {
                 .selectCurrensy();
         Assert.assertEquals(text, DataReader.getData("currensy.kuna"));
     }
-    //test
     @Test
     public void requestOnPlacePageTest() {
         String text = new HomePage(driver)

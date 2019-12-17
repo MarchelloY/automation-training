@@ -3,7 +3,8 @@
 <suite name="Smoke" verbose="1" >
     <test name="UserAccess"   >
         <classes>
-            <class name="com.marchello.hotel.hunter.test.SearchHotelsTest" />
+            <class name="com.marchello.hotel.hunter.test.SearchHotelsTest"/>
+            <class name="com.marchello.hotel.hunter.test.FunctionalTests"/>
         </classes>
     </test>
 </suite>
